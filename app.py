@@ -12,7 +12,8 @@ st.set_page_config(page_title="🏆 FIFA World Cup Predictor", layout="wide")
 
 
 MODEL_PATH = "model.pkl"
-DATA_PATH = r"C:\Krishna\project ML\data\Data.csv"  
+DATA_PATH = "data/Data.csv"
+
 
 if os.path.exists(MODEL_PATH):
     model = joblib.load(MODEL_PATH)
